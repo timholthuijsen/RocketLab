@@ -32,11 +32,10 @@ public:
 
     // Function to calculate the power of the original number raised to the reversed digits
     std::string calculatePower() {
-        long long result = 1;
+        long long result;
         // Calculating power using a loop
-        for (int i = 0; i < B; ++i) {
-            result *= A;
-        }
+        result = pow(A, B);
+
         return std::to_string(result);  // Convert the result to a string for output
     }
 
