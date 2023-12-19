@@ -5,8 +5,9 @@
 
 class Controller
 {
-  public:
-    Controller() = default;
+
+    public:
+    Controller()= default;
     ~Controller() = default;
 
     int run();
