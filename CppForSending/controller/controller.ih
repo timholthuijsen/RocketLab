@@ -1,0 +1,11 @@
+#include "controller.h"
+
+#include "../powerstring/powerstring.h"
+
+#include <iostream>
+#include <exception>
+#include <stdexcept>
+#include <cmath>
+
+using namespace std;
+
